@@ -1,0 +1,15 @@
+---
+title: "Exam Data"
+format: html
+editor: visual
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+city_data <- read_csv("data/what-a-waste-city-level-data.csv")
+```
